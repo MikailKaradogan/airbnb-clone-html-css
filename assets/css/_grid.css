@@ -1,0 +1,60 @@
+.container {
+    max-width: 1260px;
+    margin: 0px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+}
+
+.col {
+    padding: 0px 15px;
+}
+
+.col-3 {
+    padding: 0px 15px;
+    width: 24%;
+}
+
+.col-4 {
+    padding: 0px 15px;
+    width: 33.3%;
+}
+
+.col-6 {
+    padding: 0px 15px;
+    width: 48%;
+}
+
+.col-12 {
+    padding: 0px 15px;
+    width: 100%;
+}
+
+.col-8 {
+    padding: 0px 15px;
+    width: 66%;
+}
+
+.offset-2 {
+    margin-left: 16%;
+}
+
+/*  flexbox */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
